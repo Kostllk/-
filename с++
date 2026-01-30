@@ -1,0 +1,11 @@
+#pragma once
+#include <objbase.h>
+
+static const GUID IID_IX =
+{ 0xe04d098, 0x2f6f, 0x4413, {0x88, 0xa9, 0x17, 0xaa, 0x9b, 0x97, 0x9d, 0x95}};
+
+interface IX:IUnknown
+{
+  virtual HRESULT  __stdcall Fx1() = 0;
+  virtual HRESULT  __stdcall Fx2() = 0;
+};
