@@ -6,6 +6,6 @@ static const GUID IID_IX =
 
 interface IX:IUnknown
 {
-  virtual HRESULT  __stdcall Fx1() = 0;
-  virtual HRESULT  __stdcall Fx2() = 0;
+  virtual HRESULT _stdcall Fx1() = 0;
+  virtual HRESULT _stdcall Fx2() = 0;
 };
